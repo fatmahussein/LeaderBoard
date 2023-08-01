@@ -12,6 +12,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -49,6 +50,9 @@ This project allows you to add names and scores. It also displays the names and 
 - **Using modules for exports and imports**
 - **Interacting with the DOM**
 - **Working with webpack**
+
+## 🚀 Live Demo <a name="live-demo"></a>
+[live demo](https://fatmahussein.github.io/LeaderBoard/dist/index.html)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
