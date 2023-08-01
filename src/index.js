@@ -1,14 +1,12 @@
-import _ from 'lodash';
 import './styles.css';
+import { addScores, loadtoLocalStorage, displayScores } from '../modules/add.js';
 
-function component() {
-  const element = document.createElement('div');
-
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
-
-  return element;
-}
-
-document.body.appendChild(component());
+document.addEventListener('DOMContentLoaded', () => {
+  loadtoLocalStorage();
+  const form = document.querySelector('#form');
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    addScores();
+  });
+  displayScores();
+});
