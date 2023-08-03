@@ -1,6 +1,45 @@
+body {
+  background-color: rgb(73, 73, 77);
+}
 
 h1 {
   margin-left: 40px;
+  color: rgb(87, 148, 58);
+  position: relative;
+  animation-name: move;
+  animation-duration: 4s;
+}
+
+@keyframes move {
+  0% {
+    color: rgb(94, 255, 0);
+    left: 0;
+    top: 0;
+  }
+
+  25% {
+    color: rgb(18, 149, 112);
+    left: 200px;
+    top: 0;
+  }
+
+  50% {
+    color: rgb(0, 21, 255);
+    left: 200px;
+    top: 10px;
+  }
+
+  75% {
+    color: rgb(239, 16, 172);
+    left: 0;
+    top: 10px;
+  }
+
+  100% {
+    color: rgb(238, 255, 0);
+    left: 0;
+    top: 0;
+  }
 }
 
 .container {
@@ -19,6 +58,7 @@ h1 {
 .dataCardHeader {
   display: flex;
   gap: 25px;
+  color: rgb(87, 148, 58);
 }
 
 .list-items {
@@ -34,6 +74,10 @@ h1 {
 
 .list-items li:nth-child(odd) {
   background-color: rgb(220, 216, 216);
+}
+
+h3 {
+  color: rgb(87, 148, 58);
 }
 
 form {
@@ -52,4 +96,20 @@ form button {
 .dataCard button {
   margin-top: 25px;
   height: max-content;
+}
+
+input {
+  padding: 5px;
+  outline: none;
+  color: rgb(87, 148, 58);
+}
+
+form button:hover {
+  background-color: rgb(87, 148, 58);
+  cursor: pointer;
+}
+
+.dataCard button:hover {
+  background-color: rgb(87, 148, 58);
+  cursor: pointer;
 }
