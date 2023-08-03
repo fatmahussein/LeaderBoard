@@ -51,8 +51,8 @@ This project allows you to add names and scores. It also displays the names and 
 - **Interacting with the DOM**
 - **Working with webpack**
 
- ## 🚀 Live Demo <a name="live-demo"></a>
-[live demo](https://fatmahussein.github.io/LeaderBoard/dist/index.html) 
+## 🚀 Live Demo <a name="live-demo"></a>
+[live demo](https://fatmahussein.github.io/LeaderBoard/dist/index.html)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
