@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  # To Do List
+  # Leaderboard
 
 </div>
 
